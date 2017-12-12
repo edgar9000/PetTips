@@ -13,7 +13,7 @@ public class CatCategoryFactory extends ACategoryCreator {
     @Override
     public ISubcategory StructureFactory() {
 
-        //Root
+        //Root of cat category
         SubCategoryComposite Cat = new SubCategoryComposite(R.drawable.ic_menu_camera, "Gato", "CatCategory");
 
         //Level 1
